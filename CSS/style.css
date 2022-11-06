@@ -1,0 +1,393 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/***************************************** start-head ***********************************************/
+.the-head {
+  background-color: rgb(71, 71, 71);
+}
+.the-head .container div div i:not(:last-child) {
+  color: rgb(236, 202, 4);
+}
+.the-head .container div div,
+.the-head .container div div i:last-child {
+  color: #fff;
+}
+
+.banar .banar-1 {
+  background-color: rgba(20, 20, 20, 0.521);
+}
+.banar .banar-1 nav {
+  width: 85%;
+  margin: auto;
+}
+.banar .banar-1 nav div div .navbar-nav a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: ease 0.3s;
+}
+.banar .banar-1 nav div div .navbar-nav a:hover,
+.banar .banar-1 nav div div .navbar-nav .home {
+  color: rgb(236, 202, 4);
+}
+.banar {
+  background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.651)),
+    url(../IMAGES/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.banar .banar-2 form {
+  background-color: rgb(216, 214, 214);
+  width: 300px;
+  padding: 15px 25px;
+}
+/***************************************** end-head ***********************************************/
+
+
+/***************************************** start-about ***********************************************/
+.about {
+  margin: 80px auto;
+}
+.about h1 {
+  font-size: 18px;
+}
+.about span {
+  position: relative;
+}
+.about span::after {
+  content: "";
+  background-color: gray;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  left: 25px;
+  bottom: 7px;
+}
+.about span::before {
+  content: "";
+  background-color: gray;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  left: -60px;
+  bottom: 7px;
+}
+.About .container .content p {
+  line-height: 1.8;
+}
+
+.container .cart {
+  transition: ease 0.3s;
+  padding: 40px 8px;
+  box-shadow: 0px 0px 3px rgb(131, 130, 130);
+}
+.container .cart:hover {
+  transform: scale(0.9);
+  background-color: rgb(218, 213, 213);
+  box-shadow: 10px 10px 30px rgb(236, 202, 4);
+}
+
+.abouts .banar-about {
+  background: linear-gradient(#000000de, rgba(0, 0, 0, 0.726)),
+    url(../IMAGES/funfact-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+  padding: 80px;
+  margin-top: 120px;
+}
+.abouts .banar-about div {
+  background-color: rgba(77, 77, 77, 0.301);
+  width: 250px;
+  padding: 15px 50px;
+  height: 120px;
+}
+.abouts .banar-about div i {
+  font-size: 50px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.abouts .banar-about div span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.abouts .banar-about div p {
+  color: #fff;
+  font-family: sans-serif;
+}
+/***************************************** end-about ***********************************************/
+
+
+/***************************************** start-choose-car ***********************************************/
+.choose-car .list ul li {
+  padding: 10px 20px;
+  background-color: rgb(209, 209, 209);
+  border: 2px solid #fff;
+  transition: ease 0.3s;
+}
+.choose-car .list ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  transition: ease 0.3s;
+}
+.choose-car .list {
+  position: relative;
+  margin-bottom: 50px;
+}
+.choose-car .list::before {
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 210, 10);
+  height: 3px;
+  left: 2px;
+  bottom: 0px;
+  width: 100%;
+}
+.choose-car .list ul li:hover{
+  background-color: #ffd20a;
+}
+.choose-car .list ul .test{
+  background-color: #ffd20a;
+}
+.choose-car .list ul .test a{
+  color: #fff;
+}
+.choose-car .list ul li:hover a {
+  color: #fff;
+}
+
+.choose-car .list2 div div{
+  border: 1px solid gray;
+  transition: ease 0.3s;
+}
+.choose-car .list2 div div:hover{
+  background-color: #ffd20a;
+  border: none;
+}
+.choose-car .list2 div div:hover a{
+  color: #fff;
+}
+.choose-car .list2 div div a{
+  color: #000;
+  transition: ease 0.3s;
+}
+.test2{
+  background-color: #ffd20a;
+}
+.choose-car .list2 div .test2 a{
+  color: #fff;
+}
+
+.choose-car .card .card-body ul li{
+  border: 1px solid gray;
+  padding: 2px 12px;
+  margin-right: 5px;
+}
+.choose-car .card .card-body ul li a{
+  font-size: 11px;
+}
+.choose-car .card{
+transition: ease 0.3s;
+}
+.choose-car .card:hover{
+  transform: scaleY(1.1);
+  box-shadow: 3px 3px 5px rgb(255, 196, 0);
+  z-index: 111;
+}
+/***************************************** end-choose-car ***********************************************/
+
+
+/***************************************** start-quality ***********************************************/
+.quality{
+  background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.822)),url(../IMAGES/arti-thumb-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  padding: 50px;
+  margin-top: 120px;
+}
+.quality .container .business{
+  text-align: center;
+  color: #fff;
+  background-color: rgba(61, 61, 61, 0.651);
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.quality .container .business p{
+  margin-bottom: -8px;
+}
+.quality .container .business h3{
+font-size: 18px;
+}
+.quality .container .business h5{
+font-size: 14px;
+}
+/***************************************** end-quality ***********************************************/
+
+
+/***************************************** start-karts ***********************************************/
+.karts{
+  margin-bottom: 120px;
+}
+.karts .container .kart{
+  position: relative;
+}
+.karts .container .kart div{
+  max-width: 500px;
+  max-height: 200px;
+  padding: 20px 5px 10px 50px;
+}
+.karts .container .kart img{
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(255, 196, 0);
+  margin-top: 10px;
+  z-index: 111;
+  margin-right: -20px;
+}
+.karts .container .kart div h1{
+  font-size: 14px;
+}
+/***************************************** end-karts ***********************************************/
+
+
+/***************************************** start-map ***********************************************/
+.map{
+  background: linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.801)),url(../IMAGES/car-6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding: 50px;
+}
+.map .btns .btn{
+  border: 1px solid rgb(255, 196, 0);
+  border-radius: 20px;
+  color: #fff;
+  transition: ease 0.3s;
+}
+.map .btns{
+  margin-bottom: 80px;
+}
+.map .btns .btn a{
+  color: #fff;
+  text-decoration: none;
+}
+.map .btns .btn:hover{
+  background-color: rgba(138, 138, 138, 0.507);
+}
+.map .container img{
+  height: 550px;
+}
+.map .container{
+  margin-top: 120px;
+}
+/***************************************** end-map ***********************************************/
+
+
+/***************************************** end-tips ***********************************************/
+.tips .container .content{
+  padding: 20px;
+  border: 1px solid gray;
+  height: 100%;
+}
+.tips .container .content h1{
+  font-size: 18px;
+}
+.tips .container .content a{
+  color: #ffd20a;
+  background-color: rgb(43, 43, 43);
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: ease 0.3s;
+}
+.tips .container .content a:hover{
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #ffd900;
+  color: #ffd20a;
+}
+.tips .container img{
+  width: 100%;
+  height: 100%;
+}
+/***************************************** end-tips ***********************************************/
+
+
+/***************************************** start-footer ***********************************************/
+footer {
+  padding: 30px;
+}
+footer .about-us h1{
+font-size: 18px;
+}
+footer i{
+  color: #fff;
+  background-color: #ffd20a;
+  padding: 5px 8px;
+  margin-left: -5px;
+}
+footer .recent h1{
+  font-size: 16px;
+}
+footer .recent div{
+  background-color: #000;
+  padding: 1px 10px;
+  position: relative;
+  min-width: 300px;
+}
+footer .recent div i{
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #000;
+  background-color: #fff;
+}
+/***************************************** end-footer ***********************************************/
+
+
+/***************************************** start-animation ***********************************************/
+.a1-animation{
+  animation-delay: 0.4s;
+}
+.a2-animation{
+  animation-delay: 1s;
+}
+.a3-animation{
+  animation-delay: 0.3s;
+}
+.a4-animation{
+  animation-delay: 0.3s;
+}
+.a5-animation{
+  animation-delay: 0.6s;
+}
+.a6-animation{
+  animation-delay: 0.9s;
+}
+.a7-animation{
+  animation-delay: 1.2s;
+}
+.a8-animation{
+  animation-delay: 1.5s;
+}
+.a9-animation{
+  animation-delay: 1.8s;
+}
+.a10-animation{
+  animation-delay: 0.3s;
+}
+.a11-animation{
+  animation-delay: 1.2s;
+}
+/***************************************** end-animation ***********************************************/
